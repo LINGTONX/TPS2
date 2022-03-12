@@ -1,0 +1,164 @@
+
+/* for larger screens *//* for tablets */
+/* for tablets */
+@media (min-width: 664px) and (max-width:1195px){
+    
+    
+   
+    .header{
+        text-align: center;
+        font-size: 35px;
+    }
+    .welcome h2{
+        line-height:4.5rem ;
+    }
+    .footer-section{
+       margin-top: 12rem;
+       flex-direction: column;
+        align-items: center;
+    }
+    .footer-links{
+        margin-top: 1.5rem;
+    }
+    .footer-links a{
+        color: #FFFFFF;
+        font-size: 3rem;
+      }
+      .copy{
+          font-size: 22px;
+      }
+      
+}
+/* For smartphones */
+
+@media (max-width:667px){
+    .body{
+        /* height: 100vh; */
+    }
+    .header{
+        text-align: center;
+        display: none;
+    }
+    .welcome h2{
+        line-height:4.5rem ;
+        font-size: 25px;
+        
+    }
+    .hero-details{
+        margin: 0;
+    }
+    .welcome span{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 30px;
+        padding:0 0;
+        letter-spacing: 2px;
+    }
+    .welcome h5{
+        font-size: 25px;
+    }
+    .button{
+        padding: 1rem;
+    }
+    .button-area{
+        margin: 0 0;
+    }
+    .countdown{
+        gap: 0.3rem;
+    }
+    .button-area h3{
+        font-size: 25px;
+    }
+    .countdown .time{
+        padding: 1rem;
+        font-size: 25px;
+        
+    }
+    .footer-section{
+        flex-direction: column;
+        align-items: center;
+        margin: 1.35rem 0;
+    }
+    .copy{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer-links{
+        margin-top: 1.5rem;
+    }
+}
+   
+@media (max-width:450px){
+    .header{
+        display:none;
+        text-align: center;
+        display: none;
+    }
+    .welcome h2{
+        line-height:4.5rem ;
+        font-size: 25px;
+    }
+    .countdown .time{
+        padding: .8rem;
+        font-size: 25px;
+    
+      
+    }
+    .footer-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .copy{
+        width: 65%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer-links{
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width:300px){
+    .header{
+        display: none;
+    }
+    .countdown{
+        gap: 0.3rem;
+    }
+    .countdown .time{
+        padding: .4rem;
+        font-size: 18px;
+       
+      
+    }
+    .countdown .time span {
+        font-size: 14px;
+        color: #c3cbce;
+        letter-spacing: 1px;
+        }
+    .welcome h2{
+        line-height:4.5rem ;
+        font-size: 16px;
+    }
+    .welcome span{
+        display: block;
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 25px;
+        
+    }
+    .footer-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .copy{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer-links{
+        margin-top: 0.8rem;
+    }
+}
