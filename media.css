@@ -2,18 +2,25 @@
 /* for larger screens *//* for tablets */
 /* for tablets */
 @media (min-width: 664px) and (max-width:1195px){
-    
-    
-   
+    .body{
+       height: 100vh ;
+    }
     .header{
-        text-align: center;
-        font-size: 35px;
+        display: none;
     }
     .welcome h2{
-        line-height:4.5rem ;
+        line-height:5rem ;
+    }
+    .welcome span{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        font-size:4rem;
+        padding:0.5rem 0;
+        letter-spacing: 2px;
     }
     .footer-section{
-       margin-top: 12rem;
+       margin-top: 4rem;
        flex-direction: column;
         align-items: center;
     }
@@ -25,7 +32,9 @@
         font-size: 3rem;
       }
       .copy{
-          font-size: 22px;
+        width: 45%;
+        margin: 0 auto;
+        text-align: center;
       }
       
 }
@@ -40,8 +49,8 @@
         display: none;
     }
     .welcome h2{
-        line-height:4.5rem ;
-        font-size: 25px;
+        line-height:5rem ;
+        font-size: 22px;
         
     }
     .hero-details{
