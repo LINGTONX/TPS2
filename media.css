@@ -1,15 +1,26 @@
 
 /* for larger screens *//* for tablets */
 /* for tablets */
-@media (min-width: 664px) and (max-width:1195px){
-    .body{
-       height: 100vh ;
+@media (min-width: 1195px) and (max-width:1281px){
+    .welcome{
+        margin-top: 6rem;
+       
     }
+
+}
+@media (min-width: 664px) and (max-width:1195px){
+    body{
+       
+     }
     .header{
         display: none;
     }
+    .welcome{
+        margin-top: 4rem;
+    }
     .welcome h2{
         line-height:5rem ;
+        margin-top: 3.5rem;
     }
     .welcome span{
         display: block;
@@ -18,14 +29,19 @@
         font-size:4rem;
         padding:0.5rem 0;
         letter-spacing: 2px;
+        
     }
     .footer-section{
        margin-top: 4rem;
        flex-direction: column;
         align-items: center;
     }
+    .footer-section{
+        margin-top: 5rem;
+    }
     .footer-links{
         margin-top: 1.5rem;
+        padding-bottom: 24rem;
     }
     .footer-links a{
         color: #FFFFFF;
@@ -35,6 +51,8 @@
         width: 45%;
         margin: 0 auto;
         text-align: center;
+        font-size: 25px;
+        line-height: 2.2rem;
       }
       
 }
@@ -42,7 +60,7 @@
 
 @media (max-width:667px){
     .body{
-        /* height: 100vh; */
+        
     }
     .header{
         text-align: center;
@@ -96,14 +114,18 @@
     }
     .footer-links{
         margin-top: 1.5rem;
+        padding-bottom: 4rem;
     }
 }
    
 @media (max-width:450px){
     .header{
         display:none;
-        text-align: center;
-        display: none;
+       
+    }
+    body{
+       background-size: auto;
+       
     }
     .welcome h2{
         line-height:4.5rem ;
@@ -156,6 +178,7 @@
         max-width: 90%;
         margin: 0 auto;
         font-size: 25px;
+        
         
     }
     .footer-section{
