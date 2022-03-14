@@ -1,4 +1,4 @@
-let countDate = new Date('May 22, 2022 00:00:00').getTime();
+let countDate = new Date('may 22, 2022 00:00:00').getTime();
 
 const newYear = () => {
     let now = new Date().getTime();
@@ -18,7 +18,19 @@ const newYear = () => {
     document.getElementById('hour').innerText = h;
     document.getElementById('minute').innerText = m;
     document.getElementById('second').innerText = s;
+    const countDown = document.getElementById('countdown');
+
+
+    if ( d <= 30) {
+        countDown.style.display = "flex";
+    } else{
+        countDown.style.display = "none";
+    }
+   
 }
+
+
+
 setInterval(() => {
     newYear();
 }, 1000)

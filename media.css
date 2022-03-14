@@ -1,17 +1,32 @@
 
-/* for larger screens *//* for tablets */
+/* for larger screens */
+@media (min-width:2160px){
+    .hero-details{
+        margin-top: 15rem;
+    }
+}
 /* for tablets */
-@media (min-width: 1195px) and (max-width:1281px){
+/* for tablets */
+@media (min-width: 1020px) and (max-width:1281px){
     .welcome{
-        margin-top: 6rem;
+        margin-top: 2rem;
        
     }
-
+    .welcome h2{
+        font-size: 3em;
+    }
+    .welcome h5{
+        font-size: 2.5em;
+    }
+    .footer-section{
+        bottom: 2%;
+        width: 90%;
+        left: 2%;
+        right: 2%;
+    }
 }
-@media (min-width: 664px) and (max-width:1195px){
-    body{
-       
-     }
+@media (min-width: 667px) and (max-width:1020px){
+
     .header{
         display: none;
     }
@@ -27,7 +42,6 @@
         max-width: 100%;
         margin: 0 auto;
         font-size:4rem;
-        padding:0.5rem 0;
         letter-spacing: 2px;
         
     }
@@ -35,10 +49,9 @@
        margin-top: 4rem;
        flex-direction: column;
         align-items: center;
+        position: static;
     }
-    .footer-section{
-        margin-top: 5rem;
-    }
+  
     .footer-links{
         margin-top: 1.5rem;
         padding-bottom: 1.3rem;
@@ -67,9 +80,7 @@
 /* For smartphones */
 
 @media (max-width:667px){
-    .body{
-        
-    }
+ 
     .header{
         text-align: center;
         display: none;
@@ -87,7 +98,6 @@
         max-width: 100%;
         margin: 0 auto;
         font-size: 30px;
-        padding:0 0;
         letter-spacing: 2px;
     }
     .welcome h5{
@@ -97,10 +107,11 @@
         padding: 1rem;
     }
     .button-area{
-        margin: 0 0;
+        margin: 1rem 0 0 0;
     }
     .countdown{
         gap: 0.3rem;
+        padding: 0 0.8rem;
     }
     .button-area h3{
         font-size: 25px;
@@ -113,7 +124,9 @@
     .footer-section{
         flex-direction: column;
         align-items: center;
-        margin: 1.35rem 0;
+        bottom: 0;
+        left: 1%;
+        right: 3%;
     }
     .copy{
         width: 50%;
@@ -178,12 +191,11 @@
     }
     .countdown{
         gap: 0.3rem;
+        padding: 0 0.8rem;
     }
     .countdown .time{
         padding: .4rem;
-        font-size: 18px;
-       
-      
+        font-size: 18px; 
     }
     .countdown .time span {
         font-size: 14px;
@@ -201,9 +213,10 @@
         display: block;
         max-width: 90%;
         margin: 0 auto;
-        font-size: 23px;
-        
-        
+        font-size: 20px; 
+    }
+    .button-area .button{
+        font-size: 16px;
     }
     .order-1{
         order: 1;
