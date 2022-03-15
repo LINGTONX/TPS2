@@ -22,10 +22,8 @@ const newYear = () => {
 
 
     if ( d <= 30) {
-        countDown.style.display = "flex";
-    } else{
-        countDown.style.display = "none";
-    }
+        countDown.style.display = "grid";
+    } 
    
 }
 

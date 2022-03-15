@@ -78,7 +78,7 @@ button{
 
   } */
  .countdown {
-  display: grid;
+  display: none;
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 2rem;

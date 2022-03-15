@@ -5,7 +5,7 @@
         margin-top: 15rem;
     }
 }
-/* for tablets */
+/* for laptops */
 @media (min-width: 1915px) and (max-width:2160px){
     .hero-details{
         margin-top: 12rem;
