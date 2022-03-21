@@ -153,33 +153,51 @@
     }
 }
    
-@media (max-width:450px){
+@media (max-width:480px){
     .header{
         display:none;
        
     }
-    body{
-       background-size: auto;
-       
+    .welcome{
+        margin-top: 1rem;
     }
     .welcome h2{
-        line-height:4.5rem ;
+        line-height:3.5rem ;
         font-size: 25px;
     }
+    .welcome h5,
+    .button-area h3{
+        font-size: 20px;
+    }
+    .countdown{
+        margin-top: 1rem;
+
+    }
+
     .countdown .time{
-        padding: .8rem;
-        font-size: 25px;
-    
-      
+        padding: .4rem;
+        font-size: 18px;
+
     }
+    .countdown .time span{
+        font-size: 10px;
+    }
+    .button-area .button{
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    
     .footer-section{
         flex-direction: column;
         align-items: center;
     }
     .copy{
-        width: 65%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
+    }
+    .copy a{
+        display:block;
     }
     .footer-links{
         margin-top: 1.5rem;
@@ -192,7 +210,7 @@
     }
 }
 
-@media (max-width:300px){
+@media (max-width:320px){
     .header{
         display: none;
     }
@@ -210,8 +228,9 @@
         letter-spacing: 1px;
         }
     .welcome h2{
-        line-height:4.5rem ;
+        line-height:3.5rem ;
         font-size: 20px;
+        
     }
     .welcome h5{
         font-size: 20px;
@@ -223,7 +242,7 @@
         font-size: 20px; 
     }
     .button-area .button{
-        font-size: 16px;
+        font-size: 12px;
     }
     .order-1{
         order: 1;
@@ -236,7 +255,7 @@
         align-items: center;
     }
     .copy{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
     }
